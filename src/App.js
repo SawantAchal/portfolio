@@ -1,15 +1,15 @@
 import React from "react";
 import './App.css';
 import { ThemeContext } from "./context/theme";
-import { About } from "./components/About/About";
+import { About } from "./components/about/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Header } from "./components/Header/Header";
-import { Github } from "./components/About/Github";
-import { Projects } from "./components/Projects/Projects";
-import { Contact } from "./components/Contact/Contact";
-import { Footer } from "./components/Footer/Footer";
-import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
+import { Header } from "./components/header/Header";
+import { Github } from "./components/about/Github";
+import { Projects } from "./components/project/Projects";
+import { Contact } from "./components/contact/Contact";
+import { Footer } from "./components/footer/Footer";
+import { ScrollToTop } from "./components/scrollToTop/ScrollToTop";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
