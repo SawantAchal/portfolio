@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-
-function App() {
+import { ThemeContext } from "./context/theme";
+import { About } from "./components/About/About";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { Header } from "./components/Header/Header";
+import { Github } from "./components/About/Github";
+import { Projects } from "./components/Projects/Projects";
+import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
+import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
+export default function App() {
+  const [{ themename }] = React.useContext(ThemeContext);
+  React.useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="top" className={`${themename} app`}>
+      <section id="#home">
+        <Header />
+      </section>
+      <main>
+        <About />
+        <Github />
+        <section id="#projects">
+          <Projects />
+        </section>
+        <section id="#contact">
+          <Contact />
+        </section>
+      </main>
+      <Footer />
+      <ScrollToTop />
     </div>
   );
 }
-
-export default App;
