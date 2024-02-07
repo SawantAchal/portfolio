@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../Navbar/Navbar";
+import { Navbar } from "../navbar/Navbar";
 import { ThemeContext } from "../../context/theme";
 import "./Header.css";
 

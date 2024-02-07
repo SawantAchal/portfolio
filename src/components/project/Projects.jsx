@@ -1,15 +1,12 @@
 import React from "react";
 import "./Projects.css";
-import AirplaneLogo from "../../assets/AirplaneLogo.jpg"
-import RealEstateCover1 from '../../assets/RealEstateCover1.jpg'
-import InstagramLogo from '../../assets/InstagramLogo.jpg'
-import TwitterLogo from '../../assets/TwitterLogo.jpg'
-import IMDBLogo from '../../assets/IMDBLogo.png'
+import bestFood from "../../assets/best-food.png"
+import resort from '../../assets/resort-booking.png'
+import insta from '../../assets/insta.png'
+import movie from '../../assets/movie.png'
+import youtube from '../../assets/yt.png'
 import { FaReact } from "react-icons/fa";
-import { SiHtml5, SiAmazons3, SiCss3, SiExpress, SiSocketdotio, SiTailwindcss, SiReactrouter, SiFirebase, SiMongodb, SiNodedotjs, SiChakraui,  SiRabbitmq, SiReact, SiMui} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-// import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+import {  SiExpress,  SiTailwindcss,  SiFirebase, SiChakraui,SiMui} from "react-icons/si";
 import { FaSass } from "react-icons/fa6";
 export const Projects = () => {
   return (
@@ -21,7 +18,7 @@ export const Projects = () => {
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
-                            <img height='0.5rem' src={InstagramLogo} alt="" />
+                            <img height='0.5rem' src={insta} alt="" />
                         </div>
                     </div>
                     <div className="project_information">
@@ -54,7 +51,7 @@ export const Projects = () => {
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
-                            <img height='0.5rem' src={TwitterLogo} alt=""/>
+                            <img height='0.5rem' src={movie} alt=""/>
                         </div>
                     </div>
                     <div className="project_information">
@@ -85,7 +82,7 @@ export const Projects = () => {
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
-                            <img src={AirplaneLogo} alt=""/>
+                            <img src={bestFood} alt=""/>
                         </div>
                     </div>
                     <div className="project_information">
@@ -116,7 +113,7 @@ export const Projects = () => {
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
-                            <img src={AirplaneLogo} alt=""/>
+                            <img src={resort} alt=""/>
                         </div>
                     </div>
                     <div className="project_information">
@@ -147,7 +144,7 @@ export const Projects = () => {
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
-                            <img height='0.5rem' src={IMDBLogo} alt=""/>
+                            <img height='0.5rem' src={youtube} alt=""/>
                         </div>
                     </div>
                     <div className="project_information">
@@ -174,7 +171,7 @@ export const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="projects_container" data-aos="fade-right">
+            {/* <div className="projects_container" data-aos="fade-right">
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
@@ -204,7 +201,7 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
     </>

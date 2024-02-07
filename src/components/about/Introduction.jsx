@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ThemeContext } from "../../context/theme";
-import profilePic from "../../assets/profilePic.jpeg";
+import profilePic from "../../assets/profilePic.jpg";
 
 
 export const Introduction = () => {
