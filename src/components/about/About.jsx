@@ -31,7 +31,7 @@ export const About = () => {
                     <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                 </a>
             </div>
-            <button className="btnResume" onClick={() => { window.open( "https://drive.google.com/file/d/1zTJYTx3ZCddF2mbMk9Sy6BJmFvqfRfx3/view?usp=drive_link" );}}>
+            <button className="btnResume" onClick={() => { window.open( "https://drive.google.com/file/d/1TiTPLFMJpf9g6kVFX1ZvahIlChRDRou3/view?usp=sharing" );}}>
                 Resume
             </button>
         </div>
