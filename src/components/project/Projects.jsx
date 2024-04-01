@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import bestFood from "../../assets/best-food.png"
-import resort from '../../assets/resort-booking.png'
+import resort from '../../assets/resort.png'
 import insta from '../../assets/insta.png'
 import movie from '../../assets/movie.png'
 import youtube from '../../assets/yt.png'
@@ -33,12 +33,12 @@ export const Projects = () => {
                             <SiFirebase />
                         </div>
                         <div>
-                            <a href="https://github.com/SawantAchal/Insta-clone" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/SawantAchal/instagram" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt onbt">
                                     View Code
                                 </span>
                             </a>
-                            <a href="https://insta-clone-liart-one.vercel.app/auth" target="_blank" rel="noreferrer">
+                            <a href="https://vite-insta.netlify.app/" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt">
                                     See Live
                                 </span>
@@ -95,7 +95,7 @@ export const Projects = () => {
                             <SiTailwindcss />
                         </div>
                         <div>
-                            <a href="https://github.com/SawantAchal/react-with-tailwind-food-ordering" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/SawantAchal/Best-Food" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt">
                                     View Code
                                 </span>
@@ -126,7 +126,7 @@ export const Projects = () => {
                             <SiTailwindcss />
                         </div>
                         <div>
-                            <a href="https://github.com/SawantAchal/react-with-tailwind-food-ordering" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/SawantAchal/restaurant-booking" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt">
                                     View Code
                                 </span>
@@ -157,12 +157,12 @@ export const Projects = () => {
                             <SiMui/>
                         </div>
                         <div>
-                            <a href="https://github.com/AmolDhawle/IMDB-clone" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/SawantAchal/Youtube-clone" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt onbt">
                                     View Code
                                 </span>
                             </a>
-                            <a href="https://movieshub-nine-eta.vercel.app/" target="_blank" rel="noreferrer">
+                            <a href="https://youtubewithmaterialui.netlify.app" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt">
                                     See Live
                                 </span>
