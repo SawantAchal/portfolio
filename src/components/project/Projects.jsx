@@ -5,6 +5,7 @@ import resort from '../../assets/resort.png'
 import insta from '../../assets/insta.png'
 import movie from '../../assets/movie.png'
 import youtube from '../../assets/yt.png'
+import foodDel from '../../assets/foodDel.png'
 import { FaReact } from "react-icons/fa";
 import {  SiExpress,  SiTailwindcss,  SiFirebase, SiChakraui,SiMui} from "react-icons/si";
 import { FaSass } from "react-icons/fa6";
@@ -171,29 +172,29 @@ export const Projects = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="projects_container" data-aos="fade-right">
+            <div className="projects_container" data-aos="fade-right">
                 <div className="project">
                     <div className="project_videocontainer">
                         <div>
-                            <img height='0.5rem' src={IMDBLogo} alt="" />
+                            <img height='0.5rem' src={foodDel} alt="" />
                         </div>
                     </div>
                     <div className="project_information">
-                        <h2>Hotstar - clone</h2>
+                        <h2>Food Delivery</h2>
                         <p>
-                            This Hotstar clone replicates the interface of the popular streaming platform using React and Tailwind CSS, enhanced with data fetched from the TMDB API. Users can explore a vast library of movies and TV shows, view details, and watch trailers. With seamless integration of TMDB data, this clone provides an authentic streaming experience similar to the original platform.
+                            This Food Delivery App is a full-stack application designed to replicate the functionality of a typical food delivery platform. Built using the MERN stack (MongoDB, Express.js, React, Node.js), it provides users with a seamless experience for browsing, ordering, and managing food items. The admin panel offers robust capabilities for managing the food inventory.
                         </p>
                         <div>
                             <FaReact />
                             <SiMui/>
                         </div>
                         <div>
-                            <a href="https://github.com/SawantAchal/disney-clone-with-react-vite-tailwind" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/SawantAchal/food-delivery-app.git" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt onbt">
                                     View Code
                                 </span>
                             </a>
-                            <a href="https://movieshub-nine-eta.vercel.app/" target="_blank" rel="noreferrer">
+                            <a href="https://food-delivery-app-frontend-xekx.onrender.com/" target="_blank" rel="noreferrer">
                                 <span type="button" className="btns onbt">
                                     See Live
                                 </span>
@@ -201,7 +202,7 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     </div>
     </>
