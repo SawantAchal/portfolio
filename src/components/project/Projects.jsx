@@ -7,14 +7,117 @@ import movie from '../../assets/movie.png'
 import youtube from '../../assets/yt.png'
 import foodDel from '../../assets/foodDel.png'
 import { FaReact } from "react-icons/fa";
-import {  SiExpress,  SiTailwindcss,  SiFirebase, SiChakraui,SiMui} from "react-icons/si";
+import {  SiExpress,  SiTailwindcss,  SiFirebase, SiChakraui,SiMui ,SiMongodb} from "react-icons/si";
 import { FaSass } from "react-icons/fa6";
+import resume from "../../assets/resume.png"
+import blog from "../../assets/blog.png"
+import jobtech from "../../assets/jobtech.png"
+
 export const Projects = () => {
   return (
     <>
     <div className="section">
         <h2 className="section__title different">Projects</h2>
-        <div className="allProjects"> 
+        <div className="allProjects">
+            <div className="projects_container" data-aos="fade-right">
+                <div className="project">
+                    <div className="project_videocontainer">
+                        <div>
+                            <img height='0.5rem' src={resume} alt="" />
+                        </div>
+                    </div>
+                    <div className="project_information">
+                        <h2>Resume Builder</h2>
+                        <p>
+                            Resume Builder (Ongoing): Developing a dynamic resume builder with OpenAI integration for generating bullet points, summaries, and suggestions. Features include PDF and DOCX exports (jspdf, html-docx-js, docx), component-based resume templates, real-time preview, save draft functionality, resume downloads, and an advanced authentication system with OTP-based password recovery via email.
+                        </p>
+                        <div>
+                            <FaReact />
+                            <SiMongodb />
+                            <SiExpress />
+                            <SiTailwindcss />
+                        </div>
+                        <div>
+                            <a href="https://github.com/SawantAchal/instagram" target="_blank" rel="noreferrer">
+                                <span type="button" className="btns onbt onbt">
+                                    View Code
+                                </span>
+                            </a>
+                            <a href="https://vite-insta.netlify.app/" target="_blank" rel="noreferrer">
+                                <span type="button" className="btns onbt">
+                                    See Live
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="projects_container" data-aos="fade-right">
+                <div className="project">
+                    <div className="project_videocontainer">
+                        <div>
+                            <img height='0.5rem' src={blog} alt="" />
+                        </div>
+                    </div>
+                    <div className="project_information">
+                        <h2>Blog website</h2>
+                        <p>
+                            Designed and developed a blog CMS with rich text editing using Jodit and TipTap editors. Integrated EmailJS for contact notifications and built CRUD functionalities for managing blog posts.
+                        </p>
+                        <div>
+                            <FaReact />
+                            <SiChakraui />
+                            <SiExpress />
+                            <SiFirebase />
+                        </div>
+                        <div>
+                            <a href="https://github.com/SawantAchal/instagram" target="_blank" rel="noreferrer">
+                                <span type="button" className="btns onbt onbt">
+                                    View Code
+                                </span>
+                            </a>
+                            <a href="https://vite-insta.netlify.app/" target="_blank" rel="noreferrer">
+                                <span type="button" className="btns onbt">
+                                    See Live
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="projects_container" data-aos="fade-right">
+                <div className="project">
+                    <div className="project_videocontainer">
+                        <div>
+                            <img height='0.5rem' src={jobtech} alt="" />
+                        </div>
+                    </div>
+                    <div className="project_information">
+                        <h2>Job Tech</h2>
+                        <p>
+                            Developed a dynamic job portal using the MERN stack, featuring user authentication, resume uploads, job search and filtering, and an admin dashboard for managing users and listings. Designed for a seamless user experience and scalable performance.
+                        </p>
+                        <div>
+                            <FaReact />
+                            <SiChakraui />
+                            <SiExpress />
+                            <SiFirebase />
+                        </div>
+                        <div>
+                            <a href="https://github.com/SawantAchal/instagram" target="_blank" rel="noreferrer">
+                                <span type="button" className="btns onbt onbt">
+                                    View Code
+                                </span>
+                            </a>
+                            <a href="https://vite-insta.netlify.app/" target="_blank" rel="noreferrer">
+                                <span type="button" className="btns onbt">
+                                    See Live
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="projects_container" data-aos="fade-right">
                 <div className="project">
                     <div className="project_videocontainer">
