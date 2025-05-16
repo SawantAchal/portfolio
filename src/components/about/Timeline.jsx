@@ -26,7 +26,28 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-          <VerticalTimelineElement className="vertical-timeline-element--work" date={"Feb 2023 - June 2023"} contentStyle={{ boxShadow: `var(--shadow)`, border: "3px solid var(--clr-primary)", backgroundColor: `var(--clr-bg)`, textAlign: "center", color: `var(--clr-fg-alt)`, }}
+                    <VerticalTimelineElement className="vertical-timeline-element--work" date={"Dec 2024 - Present"} contentStyle={{ boxShadow: `var(--shadow)`, border: "3px solid var(--clr-primary)", backgroundColor: `var(--clr-bg)`, textAlign: "center", color: `var(--clr-fg-alt)`, }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<FaBriefcase />}
+          >
+            <h3 className="vertical-timeline-element-title" data-aos="fade-right">
+              Full Stack Developer Intern
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle" data-aos="fade-right">
+              Hindco Consultant Services , Grant Road
+            </h4>
+            <p data-aos="fade-right">
+              Led the development of two full-stack web applications using the MERN stack. Built a blog CMS with rich text editors, admin panel, and EmailJS integration. Currently developing a resume builder with OpenAI-assisted content generation, export options (PDF/DOCX), and advanced authentication.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement className="vertical-timeline-element--work" date={"Dec 2024 - June 2023"} contentStyle={{ boxShadow: `var(--shadow)`, border: "3px solid var(--clr-primary)", backgroundColor: `var(--clr-bg)`, textAlign: "center", color: `var(--clr-fg-alt)`, }}
             contentArrowStyle={{
               borderRight: "16px solid  var(--clr-primary)",
             }}
